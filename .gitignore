@@ -1,0 +1,136 @@
+# Laravel specific
+/bootstrap/compiled.php
+/bootstrap/cache
+/vendor
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/storage/app/public
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+/storage/logs
+
+# Environment files
+.env
+.env.backup
+.env.production
+.env.local
+.env.testing
+
+# IDE files
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+.phpactor.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Laravel Mix
+/public/css
+/public/js
+/public/mix-manifest.json
+
+# Laravel Telescope (if used)
+/storage/telescope
+
+# Laravel Horizon (if used)
+/storage/horizon
+
+# Laravel Debugbar (if used)
+/storage/debugbar
+
+# Testing
+.phpunit.result.cache
+/tests/coverage
+/tests/_output
+
+# Composer
+/auth.json
+composer.phar
+
+# Laravel Homestead
+Homestead.json
+Homestead.yaml
+
+# Laravel Sail
+docker-compose.override.yml
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+*.temp
+
+# Cache files
+.cache
+.parcel-cache
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local development
+.vagrant/
+.docker/
+
+# Laravel Pint
+.php-cs-fixer.cache
+
+# Laravel Dusk
+/tests/Browser/screenshots
+/tests/Browser/console
